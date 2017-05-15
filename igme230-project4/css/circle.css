@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700);
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	color: #fff;
+	background: #2f3238;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+a {
+	color: #B24E51;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	color: #afb3b8;
+	outline: none;
+}
+
+.theme-9 { background: #3D4444; color: #DADADA;}
+.theme-9 a { color: #DA7071; }
+.theme-9 a:hover, .theme-9 a:focus { color: #74777b; }
+
+.container {
+	text-align: center;
+	padding: 5.25em 0.5em 0;
+}
+
+/* Header */
+.codrops-header {
+	padding: 0;
+	letter-spacing: -1px;
+}
+
+.codrops-header h1 {
+	font-weight: 800;
+	font-size: 3.5em;
+	line-height: 1;
+	margin: 0;
+}
+
+
+h1 {
+    padding: 60px;
+}
+
+@media screen and (max-width: 30em) {
+	.codrops-header h1 {
+		font-size: 3em;
+	}
+}
