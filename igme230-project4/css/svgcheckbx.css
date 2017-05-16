@@ -26,7 +26,7 @@ label svg path {
   transition: stroke-dashoffset .4s linear;
 }
 input[type="checkbox"]:checked ~ label svg path {
-  stroke-dashoffset: 0;
+  stroke-dashoffset: 1;
 }
 input[type="checkbox"]:checked ~ label {
   color: orange;
